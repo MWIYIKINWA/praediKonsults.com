@@ -34,7 +34,7 @@
 
 
 .slider__fixed--height {
-  height: 830px;
+  height: 600px;
 }
 
 .slide__align--center {
@@ -59,7 +59,7 @@
     font-size: 66px;
     font-weight: 800;
     line-height: 55px;
-    margin-top: 24px;
+    margin-top: 15px;
 }
 .slider__inner p {
     color: #ffffff;
