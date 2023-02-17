@@ -103,6 +103,10 @@
   padding-top: 20px;
 }
 
+.mobile{
+  display: none;
+}
+
 }
 
 
@@ -372,6 +376,11 @@
 .single__project__rightsidebar {
   margin-top: 30px;
 }
+.mobile{
+  display: none;
+}
+
+
 .newsletter__thumb,
 .text__shape {
   display: none;
@@ -491,6 +500,9 @@
 -----------------*/
 .xmt-40{
   margin-top: 40px;
+}
+.wide-screen{
+  display: none;
 }
 .xmt-20{
   margin-top: 20px;
