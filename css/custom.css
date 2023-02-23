@@ -9,11 +9,29 @@
 }
 
 
+.slider__inner{
+   animation: animate 6s ease-in infinite;
+  
+}
+
 .firt-head {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
+
+@keyframes animate{
+  0%,10%,100%{
+       width: 90%;
+  }
+  70%, 90%{
+    width: 100%;
+  }
+}
+
+
 
 .social-guys{
   display: flex;
@@ -148,4 +166,17 @@
     line-height: 26px;
     margin-top: 10px;
   }
+}
+
+.hid{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
