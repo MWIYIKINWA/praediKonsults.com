@@ -261,7 +261,7 @@ body {
   06. Bg-Color
 -------------------------------------*/
 .bg__theme {
-    background: #fcc236;
+    background: #e3a615;
 }
 .bg__white {
   background: #fff;
@@ -331,7 +331,7 @@ body {
   09. Text Color
 --------------------------------*/
 .text--theme { 
-  color: #fcc236;
+  color: #e3a615;
  }
 .text--blue { 
   color: #fcc236;
@@ -525,7 +525,7 @@ body {
 [data--theme__overlay]:before {
     position: absolute;
     content: '';
-    background: #fcc236;
+    background: #e3a615;
     width: 100%;
     height: 100%;
     top: 0;
@@ -642,7 +642,7 @@ textarea:focus {
 .pt--100 { padding-top: 100px }
 .pt--110 { padding-top: 110px }
 .pt--120 { padding-top: 120px }
-.pt--130 { padding-top: 130px }-
+.pt--130 { padding-top: 130px }
 .pt--140 { padding-top: 140px }
 .pt--150 { padding-top: 150px }
 
