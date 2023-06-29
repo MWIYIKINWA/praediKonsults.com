@@ -1,0 +1,265 @@
+.btn2{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color:rgb(20, 219, 20) ;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+}
+
+
+.main{
+  
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url('../images/im2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ background-blend-mode: darken;
+    
+}
+
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color:rgb(20, 219, 20) ;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background-color:transparent ;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn2:hover{
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+
+.line{
+    width: 30%;
+    height: 10px;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+}
+
+.item{
+    max-width: 250px;
+    margin: auto;
+}
+
+.new img{
+    width: 100%;
+    height: 100%;
+}
+
+.product img{
+    width: 100%;
+    height: 240px;
+}
+
+.mbtn1:hover{
+    background-color: black;
+    transition: 0.4s;
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.7);
+    -webkit-box-shadow:-2px -1px 25px -4px rgba(0,0,0,0.7);
+    -moz-box-shadow:-2px -1px 25px -4px rgba(0,0,0,0.7);
+}
+
+.contact .form-control{
+    border-bottom: 3px solid rgb(20, 219, 20);
+    outline: none;
+}
+
+.footer{
+    background-color: rgb(20, 219, 20);
+    }
+
+
+
+.cart{
+   position: fixed;
+   top:0;
+   right: -100%;
+   width: 360px;
+   min-height: 100vh;
+   padding: 20px;
+   background-color:white;
+   box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+   transition: 0.5s;
+   opacity: 2;
+   z-index: 5;
+   overflow-y: scroll;
+   overscroll-behavior: contain;
+   pointer-events: all;
+   visibility: visible;
+}
+
+.activate-cart{
+    right: 0;
+ }
+ 
+
+
+
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+
+}
+
+.cart-img{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.detail-box{
+   display: grid;
+   row-gap: 0.5rem;
+}
+
+.cart-product-title{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.cart-quantity{
+    text-align: center;
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 12px;
+    width: 2.4rem;
+}
+
+.cart-remove{
+   cursor: pointer;
+   font-size: 20px;
+   color: blueviolet;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgb(20, 219, 20);
+}
+
+#close-cart{
+    position: absolute;
+    top: 2rem;
+    right: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.searchbar input{
+    outline: none;
+    border:solid 1px rgb(20, 219, 20);
+    border-radius: 12px;
+    max-width: 100rem;
+    height: 38px;
+    padding: 15px;
+}
+
+.display{
+    display: flex;
+}
+
+
+
+/* 
+<header>
+<div class="container">
+    <nav class="py-3">
+    
+        <div class="logo">
+            <img src="assets/images/logo.jpg" alt="" height="50rem" width="60rem" class="m-0">
+        </div>
+        
+         
+         
+            <ul class="menu">
+                <li><a class="nav-link" href="">Home</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <li><a class="nav-link" href="items.html">Items</a>
+                    <ul class="sub-menu">
+                        <li><a class="nav-link" href="">Electronics</a></li>
+                        <li><a class="nav-link " href="">Fashion</a></li>
+                        <li><a href="" class="nav-link" >Shoes</a>
+                            <ul class="sub-menu">
+                                <li><a class="nav-link" href="">Snickers</a></li>
+                                <li><a class="nav-link " href="">Gentle shoes</a></li>
+                                <li><a href="" class="nav-link" >Lady shoes</a></li>
+                                <li><a class="nav-link" href="">Boots</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-link" href="">Food</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link" href="">About</a></li>
+                <li><a class="nav-link" href="signup.html">SignUp</a></li>
+                <li><a class="nav-link"  href="">Subscribe</a></li>
+              </ul>
+         
+        
+        <div class="search">
+            <i class="fas fa-search"></i>
+        </div>
+        
+        <div class="buy" id="cart-icon">
+            <i class="fas fa-cart-shopping"></i>
+            <span class="item-count text-light">0</span>
+        </div>
+        
+        <div class="cart">
+           <h2>Hey, <span class="text-dark fs-4">Your Cart</span></h2>
+           
+           <div class="cart-content" >
+
+           </div>
+
+               
+                <div class="total">
+                    <div class="total-title text-dark fw-bold">Total</div>
+                    <div class="total-price mx-3">0 UGX</div>
+                 </div>
+                
+                 <a href="order.html" class="btn btn-dark w-25">Buy</a>
+                
+                  <div id="close-cart">
+                    <i class="fas fa-close text-dark" ></i>
+                  </div>
+
+        </div>
+
+    </nav>
+    <div class="container searchbar my-2">
+        <form action="" class="">
+            <input type="text" class="" placeholder="Search" required> 
+        </form>
+    </div>
+</div>
+</header> */

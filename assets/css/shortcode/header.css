@@ -1,0 +1,219 @@
+
+/*----------------------------------------
+  Menu basic style
+------------------------------------------*/
+@font-face {
+  font-family: 'praedii';
+  src: url('../alex.ttf');
+}
+@font-face {
+  font-family: 'praedii2';
+  src: url('../kaushan.otf');
+}
+@font-face {
+  font-family: 'praedii3';
+  src: url('../allura.ttf');
+}
+@font-face {
+  font-family: 'praedii4';
+  src: url('../lobster.ttf');
+}
+
+
+.header{
+  z-index: 10;
+  position: relative;
+  border-left: 5px solid white;
+}
+.main__menu {
+  display: flex;
+  justify-content: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-bottom: 1px solid white;
+  
+}
+.main__menu > li > a {
+  color: #000000;
+  display: block;
+  font-family: 'praedii2', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  text-transform: uppercase;
+}
+.main__menu li {
+  position: relative;
+}
+.main__menu > li:hover > a{
+  color: #fcc236;
+}
+.logo a{
+  display: block;
+}
+
+
+
+.logo {
+    height: 90px;
+    line-height: 90px;
+    padding-left: 30px;
+}
+.main__menu li {
+    padding: 0 10px;
+}
+.htc__header__search {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: flex-end;
+    position: relative;
+}
+.htc__header__search input {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: transparent none repeat scroll 0 0;
+  border-color: currentcolor currentcolor #e1e1e1;
+  border-image: none;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  color: #bfbfbf;
+  line-height: 20px;
+  padding-bottom: 2px;
+  padding-right: 23px;
+  padding-top: 2px;
+  width: 100%;
+}
+.htc__header__search a i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-53%);
+    transition: 0.4s;
+}
+.htc__header__search a i:hover{
+    color: #fcc236;
+}
+.htc__header__search i {
+    color: #bfbfbf;
+    font-size: 12px;
+}
+.htc__header__search input::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+
+/*-----------------------------------------
+  Sticky  For  Header
+-------------------------------------------*/
+
+.sticky__header.scroll-header {
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  background: rgba(2, 0, 0, 0.9) none repeat scroll 0 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  left: 0;
+  margin: 0 auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.sticky__header.scroll-header .main__menu > li > a {
+  height: 70px;
+  line-height: 70px;
+}
+.sticky__header.scroll-header .logo {
+  height: 70px;
+  line-height: 70px;
+}
+.sticky__header.scroll-header .logo a img {
+  max-width: 123px;
+}
+.sticky__header.scroll-header .htc__header__search {
+  height: 70px;
+}
+
+.fluid-container.mobile-menu-container {
+  position: relative;
+ 
+  
+}
+.mobile-logo {
+  align-items: center;
+  display: flex;
+  height: 52px;
+  left: 0;
+  padding-left: 15px;
+  position: absolute;
+  top: 0;
+  z-index: 2147483647;
+}
+.mobile-logo img {
+  max-height: 25px;
+}
+
+/*-----------------------------
+  Dropdown Menu
+--------------------------------*/
+.main__menu li.drop{
+    position: relative;
+}
+
+.main__menu li.drop ul.dropdown {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 120%;
+  transition: all 0.2s ease-in-out 0s;
+  visibility: hidden;
+  width: 220px;
+  z-index: 999;
+}
+
+.main__menu li.drop:hover ul.dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.main__menu ul.dropdown li {
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding: 0;
+}
+.main__menu ul.dropdown li a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #f8fdfe;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.main__menu li.drop ul.dropdown li:hover > a {
+    background: #fafafa none repeat scroll 0 0;
+    color: #fcc236;
+}
+
+
+
+
+
+
+
+
+
+
+
+

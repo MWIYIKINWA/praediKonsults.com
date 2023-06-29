@@ -1,0 +1,11 @@
+https://filemanager.ai/new/#/c/185.27.134.11/epiz_33940447/eyJ0IjoiZnRwIiwiYyI6eyJ2IjowLCJwIjpudWxsfX0%3D
+MySQL DB Name	MySQL User Name	MySQL Password	MySQL Host Name	PHPMyAdmin
+epiz_33940522_praediikonsults	epiz_33940522	(Your vPanel Password)	sql200.epizy.com
+
+
+PASSWORD
+lzqF37Mc3PAd 
+sql200.epizy.com
+epiz_33940522_praediikonsults
+
+http://praediikonsults2.great-site.net/
